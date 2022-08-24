@@ -2,6 +2,11 @@
   <router-view/>
 </template>
 
+
+
+
+
+
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -28,6 +33,30 @@ body{
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+@media (max-width: 1500px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: none;
+  }
 }
 
 </style>
