@@ -1,1 +1,1 @@
-export const baseUrl = 'https://btc-backend.vercel.app/api'
+export const baseUrl = 'https://btc-searcher2.herokuapp.com/api'
